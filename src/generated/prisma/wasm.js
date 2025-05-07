@@ -125,6 +125,14 @@ exports.Prisma.EmployesScalarFieldEnum = {
   position: 'position'
 };
 
+exports.Prisma.UserScalarFieldEnum = {
+  id: 'id',
+  email: 'email',
+  password: 'password',
+  name: 'name',
+  createdAt: 'createdAt'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -132,7 +140,8 @@ exports.Prisma.SortOrder = {
 
 
 exports.Prisma.ModelName = {
-  employes: 'employes'
+  employes: 'employes',
+  user: 'user'
 };
 
 /**
